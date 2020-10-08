@@ -1,24 +1,27 @@
-# README
+# SPEER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+```bundle install```
 
-Things you may want to cover:
+## Run App
+``` rails s```
 
-* Ruby version
+## Run Migration
+```rails db:migration```
 
-* System dependencies
+## Run Tests
+```bundle exec rspec```
 
-* Configuration
+## Endpoints
 
-* Database creation
+#### signup
+``` http://127.0.0.1:3000/signup ``` 
+Type: POST
+body:
+``` { "name": "name", "username": "username", "email": "name@email.com" "password": "password" } ```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### login
+``` http://127.0.0.1:3000/auth/login ```
+Type: POST
+body:
+``` { "name": "name", "username": "username", "email": "name@email.com" "password": "password" } ```
