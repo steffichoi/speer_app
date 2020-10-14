@@ -13,6 +13,7 @@ Start server with: <br />
 
 Notes: <br />
 Chatrooms endpoints has 2 failing tests. The endpoints are working when tested manually, but I need to do more research into how to create dummy instances with the has_many, through association. <br />
+Chatroom does not support multiple members yet. Need to learn how to add multiple associations. <br />
 
 All revelant code can be found in: <br />
 app/ <br />
