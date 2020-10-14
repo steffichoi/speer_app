@@ -7,6 +7,9 @@ Clone the repository and run : <br />
 Run tests with: <br />
 ```bundle exec rspec``` <br />
 
+Notes: <br />
+Chatrooms endpoints has 2 failing tests. The endpoints are working when tested manually, but I need to do more research into how to create dummy instances with the has_many, through association.
+
 
 ## Endpoints
 
